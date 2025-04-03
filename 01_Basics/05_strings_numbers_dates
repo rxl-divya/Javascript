@@ -1,0 +1,29 @@
+const newWord = new String("hello-world");
+console.log(newWord.split("-"));
+
+let name = "divya";
+let emailId = "divya@red.com";
+
+console.log(`name is ${name} and email id is ${emailId}`);
+
+const url = "https://hitesh.com/hitesh%20choudhary";
+console.log(url.replace("%20", ""));
+
+// NUMBERS
+
+let num = Math.random();
+console.log(num);
+console.log(num * 10 + 1);
+console.log(Math.floor(num * 10 + 1));
+
+// DATE
+
+let myDate = new Date();
+console.log(myDate);
+console.log(myDate.toDateString());
+console.log(myDate.toLocaleString());
+console.log(typeof myDate);
+
+let myCreatedDate = new Date(2012, 12, 3);
+console.log(myCreatedDate);
+console.log(myCreatedDate.getMonth());
